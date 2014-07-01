@@ -17,8 +17,13 @@ namespace challenge
 				
 				
 			}
+			//&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
 			
 			Console.WriteLine ("2. Feladat");
+			
+			
+			
+			//&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
 			
 			Console.WriteLine ("6. Feladat");
 			int a;
@@ -29,19 +34,23 @@ namespace challenge
 			} while (0>a);
 			
 			q = (a + 1) / 2;
-			Console.WriteLine (q);
+			//Console.WriteLine (q);
 			
 			do {
 			
 				q = (a / q + q) / 2;
-				Console.WriteLine (q);
-				Console.WriteLine (Math.Abs ((q * q) - a) < a / (Math.Pow (10, 6)));
-				Console.WriteLine (Math.Abs ((q * q) - a) + " < " + a / (Math.Pow (10, 6)));
+//				Console.WriteLine (q);
+//				Console.WriteLine (Math.Abs ((q * q) - a) < a / (Math.Pow (10, 6)));
+//				Console.WriteLine (Math.Abs ((q * q) - a) + " < " + a / (Math.Pow (10, 6)));
 				
 			} while (Math.Abs((q*q)-a)>a/(Math.Pow(10,6)));
 			
 			Console.WriteLine (q);
+//&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+			Console.WriteLine ("9. Feladat");
 			
+//&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+
 			Console.WriteLine ("9. Feladat");
 			
 			int r = int.Parse (Console.ReadLine ());
@@ -56,6 +65,8 @@ namespace challenge
 			
 			Console.WriteLine ("Terület: " + te);
 			Console.WriteLine ("Térfogat: " + t);
+			
+			
 			
 			
 			
